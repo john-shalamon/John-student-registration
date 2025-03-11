@@ -20,7 +20,7 @@ const formSchema = z.object({
   course: z.string().min(1, { message: "Please select a course." }),
 })
 
-// Define the student type
+
 type Student = z.infer<typeof formSchema>
 
 export default function StudentRegistration() {
