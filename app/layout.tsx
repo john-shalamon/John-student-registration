@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'John-StudentRegister Form',
-  description: '',
+  description: 'John-StudentRegister Form',
   generator: '',
 }
 
